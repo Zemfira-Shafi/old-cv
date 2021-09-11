@@ -24,7 +24,8 @@ I am always looking for ways to improve and grow. I am also a great team player
   * Sublime Text3
   * Git
   * Visual Studio Code
-  
+
+  ***
   #### My code
   ```javascript
   function century (year) {
@@ -39,13 +40,10 @@ I am always looking for ways to improve and grow. I am also a great team player
 
   ***
   ### Education 
-
   _Istitute of Economics Management and Low, 2009_
 
   *** 
-
   ### English 
-
   _Level of English - A2_ 
 
   ***
