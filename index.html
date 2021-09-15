@@ -11,6 +11,90 @@
     <title>CV</title>
 </head>
 <body>
-    
+  <main class="wrapper">
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="#contact">Contact</a></li>
+          <li class="header-item"><a href="#skills">Skills</a></li>
+          <li class="header-item"><a href="#experience">Experience</a></li>
+          <li class="header-item"><a href="#education">Education</a></li>
+          <li class="header-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="left-side">
+      <div class="photo">
+        <img src="image/photo.JPG" alt="myphoto" class="img">
+      </div>
+      <section class="name">
+        <h1>ZEMFIRA SHAFIGULLINA</h1>
+        <p class="profession">Junior Front-End Developer</p>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <ul class="contacts_list">
+          <li class="contacts_list-item">
+              <img src="image/Mail-icon.png" alt="mail" class="contacts-icon">
+              <span>zemfirashafigullina@gmail.com</span> 
+          </li>
+          <li class="contacts_list-item">
+            <img src="image/Mobile-Tablet-icon.png" alt="phone" class="contacts-icon">
+            <span>+7(927)422-54-05</span> 
+        </li> 
+      </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">JavaScript(beginner)</li>
+          <li class="skills-item">Git</li>
+        </ul>
+      </section>
+    </div>
+    <div class="right-side">
+      <section class="experience" id="experience">
+        <h2>Work experience</h2>
+        <h3>My projects</h3>
+        <div class="projects"></div>
+        <h4>My code</h4>
+        <pre>
+          <code class="code">
+            function even_or_odd(number) {
+              if (number % 2 == 0) {
+                return "Even";
+              }else {
+                return "Odd";
+            };
+            };
+          </code>
+        </pre>
+      </section>
+      <section class="education" id="education">
+        <h2>Education</h2>
+        <h5>Master Degree</h5>
+        <p class="education-text">Institute of Economics Management and Low, 2009</p>
+      </section>
+      <section class="languages" id="languages">
+        <h2>Languages</h2>
+        <p class="languages-text"><span>English</span>-Pre-intermidiate</p>
+        <p class="languages-text"><span>Russian</span>-Fluent</p>
+      </section>
+    </div>
+      <footer class="footer">
+        <div class="footer-element">
+          <a href="https://rs.school/js/" target="blank">
+            <img src="image/rs_school_js.svg" alt="rs-school" class="footer-element_item">
+        </a>
+        </div>
+        <div class="footer-element">
+            <a href="https://github.com/Zemfira-Shafi" target="blank">
+            <img src="image/GitHub-Mark.png" alt="github" class="footer-element_item">
+            </a>
+        </div>
+      </footer>
+  </main>  
 </body>
 </html>
