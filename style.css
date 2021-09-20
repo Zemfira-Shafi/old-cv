@@ -296,6 +296,19 @@ h5 {
     margin: 0px 0px 15px 0px;
     text-align: center;
   }
+  h3,
+  h4 {
+    text-align: center;
+  }
+  .education-text {
+    padding-left: 20px;
+  }
+  .languages-text {
+    padding-left: 20px;
+  }
+  h5 {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -315,12 +328,6 @@ h5 {
   h3,
   h4,
   h5 {
-    padding-left: 20px;
-  }
-  .education-text {
-    padding-left: 20px;
-  }
-  .languages-text {
     padding-left: 20px;
   }
 }
