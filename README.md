@@ -1,1 +1,1 @@
-https://Zemfira-Shafi.github.io/rsschool-cv/
+https://Zemfira-Shafi.github.io/old-cv/
